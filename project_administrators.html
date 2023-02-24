@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <title>Descripción de Proyecto</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="res/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="res/favicon-16x16.png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +14,12 @@
 </head>
 <body>
   <div class="background"></div>
+  <img class="background-logo" src="res/background-logo.png"></img>
   <header>
+    <div class="logo-container">
+      <img onclick="redirect('index')" class="original-logo-img" src="res/logo-original.png" alt="">
+    </div>
+    <div class="blue-line-1"></div>
     <nav>
       <div onclick="redirect('manifest')" class="nav-button">
         Manifiesto
@@ -47,6 +54,7 @@
       </div>
       <div onclick="redirect('activities')" class="nav-button">Actividades</div>
     </nav>
+    <div class="blue-line-2"></div>
   </header>
   <h2>ADMINISTRADORES DEL PROYECTO</h2>
   <div class="admin-container">
@@ -65,9 +73,6 @@
   </div>
   <main>
     <h2>Contactos</h2>
-    <p class="main-text">
-      
-    </p>
   </main>
   <script src="script.js"></script>
 </body>

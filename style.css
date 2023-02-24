@@ -169,3 +169,11 @@ body > h2 {
   width: 80%;
   min-width: 500px;
 }
+
+.donations-img {
+  width: 200px;
+}
+
+.visual-document-img {
+  width: 240px;
+}

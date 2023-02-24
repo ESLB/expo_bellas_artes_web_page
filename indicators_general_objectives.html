@@ -13,40 +13,39 @@
 <body>
   <div class="background"></div>
   <header>
-    
     <nav>
-      <div class="nav-button">
+      <div onclick="redirect('manifest')" class="nav-button">
         Manifiesto
       </div>
       <div class="nav-button">Acta de constitución del proyecto
         <div class="nav-button-menu">
-          <div class="menu-item">Descripción del proyecto/Público objetivo</div>
-          <div class="menu-item">Misión/Visión</div>
-          <div class="menu-item">Valores</div>
+          <div onclick="redirect('project_description')" class="menu-item">Descripción del proyecto/Público objetivo</div>
+          <div onclick="redirect('vision_mision')" class="menu-item">Misión/Visión</div>
+          <div onclick="redirect('values')" class="menu-item">Valores</div>
         </div>
       </div>
       <div class="nav-button">Imagen corporativa
         <div class="nav-button-menu">
-          <div class="menu-item">Administradores del proyecto</div>
-          <div class="menu-item">Donaciones</div>
+          <div onclick="redirect('project_administrators')" class="menu-item">Administradores del proyecto</div>
+          <div onclick="redirect('donations')" class="menu-item">Donaciones</div>
         </div>
       </div>
-      <div class="nav-button">Documento Visual</div>
+      <div onclick="redirect('visual_document')" class="nav-button">Documento Visual</div>
       <div class="nav-button">Plan de difusión
         <div class="nav-button-menu">
-          <div class="menu-item">Medios de comunicación</div>
-          <div class="menu-item">Espacio público</div>
-          <div class="menu-item">Difusión de redes</div>
+          <div onclick="redirect('difusion_plan_media')" class="menu-item">Medios de comunicación</div>
+          <div onclick="redirect('difusion_plan_public_spaces')" class="menu-item">Espacio público</div>
+          <div onclick="redirect('difusion_plan_network')" class="menu-item">Difusión de redes</div>
         </div>
       </div>
       <div class="nav-button">Indicadores de los resultados esperados
         <div class="nav-button-menu">
-          <div class="menu-item">Objetivos generales</div>
-          <div class="menu-item">Objetivos específicos</div>
-          <div class="menu-item">FODA</div>
+          <div onclick="redirect('indicators_general_objectives')" class="menu-item">Objetivos generales</div>
+          <div onclick="redirect('indicators_specific_objectives')" class="menu-item">Objetivos específicos</div>
+          <div onclick="redirect('indicators_foda')" class="menu-item">FODA</div>
         </div>
       </div>
-      <div class="nav-button">Actividades</div>
+      <div onclick="redirect('activities')" class="nav-button">Actividades</div>
     </nav>
   </header>
   <h2>INDICADORES DE LOS RESULTADOS ESPERADOS</h2>
@@ -56,5 +55,6 @@
       Creación de canal de una plataforma digital con el propósito que durante 16 semanas difundir contenido sobre restauración y conservación, dirigido a un público objetivo de estudiantes y carreras afines , con el fin de que el canal crezca en la plataforma, y permita promover el contenido a desarrollar esperando obtener un gran numero de visitantes al culminar los primeros 4 meses.
     </p>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>

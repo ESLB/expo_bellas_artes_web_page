@@ -63,7 +63,8 @@ nav {
   align-items: center;
   position: relative;
   height: 50px;
-  padding: 20px
+  padding: 20px;
+  user-select: none;
 }
 
 .nav-button:hover {
@@ -95,6 +96,7 @@ nav {
 }
 
 .menu-item {
+  user-select: none;
   background-color: white;
   display: block;
   display: flex;
